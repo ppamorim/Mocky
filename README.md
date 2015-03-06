@@ -1,2 +1,2 @@
 # Mocky
-Mocky makes mock more monderful
+Mocky makes mockies more monckerful
