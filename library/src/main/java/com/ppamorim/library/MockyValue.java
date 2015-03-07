@@ -27,7 +27,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 public @interface MockyValue {
 
-  public String field() default "";
+  public String value() default "";
   public int size() default 0;
   //public Class as() default null;
 

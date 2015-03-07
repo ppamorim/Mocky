@@ -6,10 +6,10 @@ import com.ppamorim.library.MockyValue;
 @MockyClass
 public class Android {
 
-  @MockyValue(field = "name") String name;
+  @MockyValue(value = "name") String name;
 
-  public Android(@MockyValue(field = "name") String name) {
-
+  public Android(@MockyValue(value = "name") String name) {
+    this.name = name;
   }
 
   public String getName() {

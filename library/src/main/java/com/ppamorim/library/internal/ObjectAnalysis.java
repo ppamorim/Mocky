@@ -6,5 +6,12 @@ import javax.inject.Singleton;
 import java.util.*;
 
 @Singleton
-public class ObjectAnalysis {
+public class ObjectAnalysis<T> {
+
+
+  public T Analyse() {
+
+
+  }
+
 }
