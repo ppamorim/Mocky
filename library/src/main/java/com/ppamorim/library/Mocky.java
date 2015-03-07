@@ -40,21 +40,21 @@ public final class Mocky {
     return arrayList;
   }
 
-  //public List<T> list(T type, int size) {
-  //  List<T> list = new ArrayList<>(size);
-  //  for(int i = 0; i < size; i++) {
-  //    list.add(type);
-  //  }
-  //  return list;
-  //}
-  //
-  //public Vector<T> vector(T type, int size) {
-  //  Vector<T> list = new Vector<>(size);
-  //  for(int i = 0; i < size; i++) {
-  //    list.add(type);
-  //  }
-  //  return list;
-  //}
+  public List<T> list(T type, int size) {
+    List<T> list = new ArrayList<>(size);
+    for(int i = 0; i < size; i++) {
+      list.add(type);
+    }
+    return list;
+  }
+
+  public Vector<T> vector(T type, int size) {
+    Vector<T> list = new Vector<>(size);
+    for(int i = 0; i < size; i++) {
+      list.add(type);
+    }
+    return list;
+  }
 
   public static class Foo<T> {
     private Class<T> type;
